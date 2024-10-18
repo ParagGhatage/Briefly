@@ -1,0 +1,14 @@
+# Ignore the frontend directory
+frontend/
+
+# Ignore the notebooks directory
+notebooks/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directory (if applicable)
+venv/
+env/
