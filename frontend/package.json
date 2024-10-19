@@ -24,6 +24,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-markdown": "^9.0.1",
+    "resend": "^4.0.0",
     "tabler": "^1.0.0-alpha.8",
     "tailwind-merge": "^2.5.4"
   },

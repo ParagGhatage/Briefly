@@ -33,7 +33,7 @@ const onEmail = async (e) => {
   e.preventDefault()
       try {
 
-          const response = await axios.post("/api/send_email", user);
+          const response = await axios.post("/api/mail", user);
           console.log( response.data);
 
           if(!(response.data)){
@@ -47,7 +47,7 @@ const onEmail = async (e) => {
           if((response)){
             toast({
               title: `Email sent!`,
-              description:"We have sent an email to NeuroCure team.",
+              description:"We have sent an email to Briefly team.",
               status: "success",
               isClosable: true,
             })

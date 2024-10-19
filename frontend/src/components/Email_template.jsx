@@ -8,7 +8,7 @@ const EmailTemplate=({
 }) => (
     <div className='flex-wrap p-4 m-3'>
     <p >Name :{name}</p>
-    <p>This message is from Contact Me LegalEagle :</p>
+    <p>This message is from Contact Me Briefly :</p>
     <p>
     Message : {message}
     </p>
