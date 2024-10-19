@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Analytics } from "@vercel/analytics/react"
 import { ChakraProvider } from "@chakra-ui/react";
-import { Analytics } from "@vercel/analytics/react"
 
 
 const geistSans = localFont({
