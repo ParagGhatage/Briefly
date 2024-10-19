@@ -11,7 +11,7 @@ export async function POST(req) {
   
   // Mocked chatbot response function for now
   async function getChatbotResponse(query) {
-    const response = await axios.post('http://127.0.0.1:5000/search',{
+    const response = await axios.post('https://briefly-80161481785.us-central1.run.app/search',{
     
        "query":`${query}` },
       {headers:{
