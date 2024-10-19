@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import ChatInput from './ChatInput';
 import Message from './Message';
-import { Plan } from '../app/api/plan/page';
+import { Plan } from './plan/page';
 import ReactMarkdown from 'react-markdown';
 
 

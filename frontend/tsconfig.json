@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/app/api/plan/page.jsx"  ],
+, "src/components/plan/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
